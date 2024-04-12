@@ -1,0 +1,158 @@
+[Info]	2024/03/14 13:43:55 
+[Info]	2024/03/14 13:43:55 [Step 1] 執行更新前腳本
+[Info]	2024/03/14 13:43:55 執行 /home/pascal/projects/new/upgrade-client/upgrade/shell/before_upgrade.sh
+[Info]	2024/03/14 13:43:55 
+[Info]	2024/03/14 13:43:55 [Step 2] 清空並重新建立暫存區與備份區
+[Info]	2024/03/14 13:43:55 暫存區目錄不存在: /home/pascal/projects/new/upgrade-client/upgrade/tmp
+[Info]	2024/03/14 13:43:55 創建暫存區目錄 /home/pascal/projects/new/upgrade-client/upgrade/tmp
+[Info]	2024/03/14 13:43:55 不需要備份
+[Info]	2024/03/14 13:43:55 
+[Info]	2024/03/14 13:43:55 [Step 3] 向 Server 取得檔案簽章
+[Info]	2024/03/14 13:43:55 Waiting for 1205 milliseconds
+[Info]	2024/03/14 13:43:56 Sending POST request to https://upgsys.program.com.tw/UPG_SERVER/webfetch.pl with fields: "func=get_signature&appname=Bikonnect_EC21&version=0199"
+[Info]	2024/03/14 13:43:56 Retcode is 1, API request succeeded
+[Info]	2024/03/14 13:43:56 Base64 decode success
+[Info]	2024/03/14 13:43:56 Parsed file signature success
+[Info]	2024/03/14 13:43:56 File [1]: /app/audio/boot.wav.................9282c850eb59068b8f5c275b0a905de8
+[Info]	2024/03/14 13:43:56 File [2]: /app/audio/fail.wav.................3b0df7e980a7bac06144ddd7fef22d67
+[Info]	2024/03/14 13:43:56 File [3]: /app/audio/remind.wav.................f1f82fc88bf75270b2a66124419dc4dd
+[Info]	2024/03/14 13:43:56 File [4]: /app/audio/success.wav.................cc65495bbb46f965e926dd6c86cf74ba
+[Info]	2024/03/14 13:43:56 File [5]: /app/bin/main.................ce047c4b9d212e278378e2c26ee5e051
+[Info]	2024/03/14 13:43:56 File [6]: /app/bmp/battery/100.bmp.................2959b164b578f7c447c7a8966d897a61
+[Info]	2024/03/14 13:43:56 File [7]: /app/bmp/battery/100_anti.bmp.................9f37a416c16effe8eee03c1e325d1529
+[Info]	2024/03/14 13:43:56 File [8]: /app/bmp/battery/20.bmp.................618fc09ec1d93e74369d6f0f322965b6
+[Info]	2024/03/14 13:43:56 File [9]: /app/bmp/battery/20_anti.bmp.................57ab5597d9d0139ce9a1c849995dad3b
+[Info]	2024/03/14 13:43:56 File [10]: /app/bmp/battery/40.bmp.................2714bfb3eca8fc6533834041fe48c97d
+[Info]	2024/03/14 13:43:56 File [11]: /app/bmp/battery/40_anti.bmp.................23077124207efd87039eabe5fd2ecda9
+[Info]	2024/03/14 13:43:56 File [12]: /app/bmp/battery/60.bmp.................0a2179cf65e2f833e49c45aedc7e80fa
+[Info]	2024/03/14 13:43:56 File [13]: /app/bmp/battery/60_anti.bmp.................0ae80c86d2d7aae68198a13ce6b9d5ab
+[Info]	2024/03/14 13:43:56 File [14]: /app/bmp/battery/80.bmp.................10f896d39e4007a0710483ddcf64fd87
+[Info]	2024/03/14 13:43:56 File [15]: /app/bmp/battery/80_anti.bmp.................88332e90cb1aa77f0a918165f590cbd8
+[Info]	2024/03/14 13:43:56 File [16]: /app/bmp/bg_Black.bmp.................efcc78e59f756909058177b39dca7c16
+[Info]	2024/03/14 13:43:56 File [17]: /app/bmp/fail/4g.bmp.................7fe9f04577ec514472579c1d61030357
+[Info]	2024/03/14 13:43:56 File [18]: /app/bmp/fail/battery.bmp.................3cf826b01d9044cf3f2548049574ca16
+[Info]	2024/03/14 13:43:56 File [19]: /app/bmp/fail/bikeNo.bmp.................4feb59213cedd11863375fc05e3cf970
+[Info]	2024/03/14 13:43:56 File [20]: /app/bmp/fail/ble.bmp.................0c0ae498358ce8d28f11bcc65c00936e
+[Info]	2024/03/14 13:43:56 File [21]: /app/bmp/fail/ev.bmp.................7de0ab9fe2bc70a35f00d5687923037c
+[Info]	2024/03/14 13:43:56 File [22]: /app/bmp/fail/lock.bmp.................f259bd56864b24cacb9cf07afb376297
+[Info]	2024/03/14 13:43:56 File [23]: /app/bmp/fail/lowBattery.bmp.................1b45a738ed3f378a41a1016b030d1338
+[Info]	2024/03/14 13:43:56 File [24]: /app/bmp/fail/reader.bmp.................28ccd4eecfbda31444d276504c98d124
+[Info]	2024/03/14 13:43:56 File [25]: /app/bmp/fail/scorching.bmp.................98e3f4a68b6705c21b44bd5edda8c775
+[Info]	2024/03/14 13:43:56 File [26]: /app/bmp/fail/server.bmp.................ff4aae4ce2c5a529f480f5acff0e84fa
+[Info]	2024/03/14 13:43:56 File [27]: /app/bmp/fail/stop.bmp.................148be3e66706a6fd2dd5da117d281eca
+[Info]	2024/03/14 13:43:56 File [28]: /app/bmp/fail/tag.bmp.................dd7c200a68664691620f8ff404fa395a
+[Info]	2024/03/14 13:43:56 File [29]: /app/bmp/fail/ups.bmp.................9996999ee2139d5bf007363acd347b7d
+[Info]	2024/03/14 13:43:56 File [30]: /app/bmp/gps-1-1.bmp.................d5e1923851310e49eca80f52673eff40
+[Info]	2024/03/14 13:43:56 File [31]: /app/bmp/gps-1-2.bmp.................c549fbaf99eee18a03db50c28b80d121
+[Info]	2024/03/14 13:43:56 File [32]: /app/bmp/logo.bmp.................894a14363577c3ea82c75258ddafcd94
+[Info]	2024/03/14 13:43:56 File [33]: /app/bmp/logo_60_40.bmp.................ec48c73c505e345e1016cec116003393
+[Info]	2024/03/14 13:43:56 File [34]: /app/bmp/pinCodeLeft.bmp.................078b958506c507bc40429bebfed9d7b4
+[Info]	2024/03/14 13:43:56 File [35]: /app/bmp/service/enter.bmp.................58cf3672b23310494031721a61b62442
+[Info]	2024/03/14 13:43:56 File [36]: /app/bmp/service/enter2.bmp.................9bf1bbabcfd13edeb9d9c0bc3266ac04
+[Info]	2024/03/14 13:43:56 File [37]: /app/bmp/service/info_battery.bmp.................469873d7069afc13482da19df37158b5
+[Info]	2024/03/14 13:43:56 File [38]: /app/bmp/service/info_ec21.bmp.................2fae58c865168b8e62380ab2cf07b0c7
+[Info]	2024/03/14 13:43:56 File [39]: /app/bmp/service/info_exit.bmp.................f45493f98992ce94852a3977e5b6cd8e
+[Info]	2024/03/14 13:43:56 File [40]: /app/bmp/service/info_motor.bmp.................8fab3874eda45a06d6ce46a9254dfb70
+[Info]	2024/03/14 13:43:56 File [41]: /app/bmp/service/info_pillar.bmp.................e9abf99e5bf50d1dbc5b7d603b915d85
+[Info]	2024/03/14 13:43:56 File [42]: /app/bmp/service/lock_action.bmp.................b6361323b7726bbf7a3f5062c7e0eec6
+[Info]	2024/03/14 13:43:56 File [43]: /app/bmp/service/lock_reader.bmp.................47a601d0529e903c533cebd6662b7b49
+[Info]	2024/03/14 13:43:56 File [44]: /app/bmp/service/menu_ble.bmp.................1ae74893c1be8676bc828b15153135f6
+[Info]	2024/03/14 13:43:56 File [45]: /app/bmp/service/menu_encoding.bmp.................cc9d11c1d54b82b6b8cbd90d54e13f51
+[Info]	2024/03/14 13:43:56 File [46]: /app/bmp/service/menu_exit.bmp.................3fdbc79512eb71732ff1934aa5f27c8f
+[Info]	2024/03/14 13:43:56 File [47]: /app/bmp/service/menu_gps.bmp.................1ba0aa3fca18423974f91449d7cc6234
+[Info]	2024/03/14 13:43:56 File [48]: /app/bmp/service/menu_info.bmp.................3490e5a2e9f37ac934304c012ed0341e
+[Info]	2024/03/14 13:43:56 File [49]: /app/bmp/service/menu_lcm.bmp.................2f54144b2e2412ea2157f97fcc8fce38
+[Info]	2024/03/14 13:43:56 File [50]: /app/bmp/service/menu_led.bmp.................13060c4a2d89fd35913a2256d5f3a323
+[Info]	2024/03/14 13:43:56 File [51]: /app/bmp/service/menu_lock.bmp.................4e7f210b1737889cda45ff589f3f18de
+[Info]	2024/03/14 13:43:56 File [52]: /app/bmp/service/menu_moto.bmp.................dfd8d097a8b24e5f48f5b41f63c046d5
+[Info]	2024/03/14 13:43:56 File [53]: /app/bmp/service/menu_network.bmp.................4d58eb791132cc00d727e5299ca13e43
+[Info]	2024/03/14 13:43:56 File [54]: /app/bmp/service/menu_reader.bmp.................42520c0e0c72c9cfc3949f25ed0b11c6
+[Info]	2024/03/14 13:43:56 File [55]: /app/bmp/service/menu_reboot.bmp.................dab765d835c486750bae2e85a5258a3b
+[Info]	2024/03/14 13:43:56 File [56]: /app/bmp/service/menu_restore.bmp.................d2294152685765da4d19e3e7a9593b79
+[Info]	2024/03/14 13:43:56 File [57]: /app/bmp/service/menu_shutdown.bmp.................63fbebd4fcc4b61a235bc4275dd7d19e
+[Info]	2024/03/14 13:43:56 File [58]: /app/bmp/service/menu_speaker.bmp.................43486a76cad89c9ef43f7c088611f7bd
+[Info]	2024/03/14 13:43:56 File [59]: /app/bmp/service/menu_upgrade.bmp.................fb99342ba08677792b0ee4a2136bbe71
+[Info]	2024/03/14 13:43:56 File [60]: /app/bmp/service/motor_light.bmp.................0d7bd422b1b81bd13fb85d672f630a4c
+[Info]	2024/03/14 13:43:56 File [61]: /app/bmp/service/motor_power.bmp.................8b3ff8c230e1757a5b83ab9b12ef9787
+[Info]	2024/03/14 13:43:56 File [62]: /app/bmp/service/motor_speed.bmp.................58ccf195841d1c1773d8a3c4efa24c20
+[Info]	2024/03/14 13:43:56 File [63]: /app/bmp/show/12.bmp.................b6ff09f739cd9e44a4490fb6b3c2b0d8
+[Info]	2024/03/14 13:43:56 File [64]: /app/bmp/show/17.bmp.................9a6caa38e5e570b64cf942720151990a
+[Info]	2024/03/14 13:43:56 File [65]: /app/bmp/show/20.bmp.................44412280b1b680911df3d65765761fb0
+[Info]	2024/03/14 13:43:56 File [66]: /app/bmp/show/21.bmp.................063bf7a288d03ece4a743fd69e9ea477
+[Info]	2024/03/14 13:43:56 File [67]: /app/bmp/show/22.bmp.................c713683ba3827545c889544659755929
+[Info]	2024/03/14 13:43:56 File [68]: /app/bmp/show/28.bmp.................f6a619628ac0b6ad8271023c0f2d201e
+[Info]	2024/03/14 13:43:56 File [69]: /app/bmp/show/30.bmp.................1bf6a2417c8b1a88ce8e20f1627cc6c0
+[Info]	2024/03/14 13:43:56 File [70]: /app/bmp/show/34.bmp.................bbc2fb6348696f2bf452e487274f062c
+[Info]	2024/03/14 13:43:56 File [71]: /app/bmp/show/35.bmp.................1bf6a2417c8b1a88ce8e20f1627cc6c0
+[Info]	2024/03/14 13:43:56 File [72]: /app/bmp/show/36.bmp.................9a6caa38e5e570b64cf942720151990a
+[Info]	2024/03/14 13:43:56 File [73]: /app/bmp/show/37.bmp.................03bc4667bd96787d287e442df968e7f6
+[Info]	2024/03/14 13:43:56 File [74]: /app/bmp/show/38.bmp.................949062803c508f4f4ff84b0efff20d86
+[Info]	2024/03/14 13:43:56 File [75]: /app/bmp/show/39.bmp.................66f4ae458d7b234bb6ffe697ed235a5d
+[Info]	2024/03/14 13:43:56 File [76]: /app/bmp/show/40.bmp.................ae3761d1d0922fa2763e837ddaf26baf
+[Info]	2024/03/14 13:43:56 File [77]: /app/bmp/show/99.bmp.................9b2b6313acf310069a07b16506d3e822
+[Info]	2024/03/14 13:43:56 File [78]: /app/bmp/unit.bmp.................8f97bce288cc189393f2b1dce07bd7c6
+[Info]	2024/03/14 13:43:56 File [79]: /app/config/MG_123.crt.................8fc22be70082a670bf035690b258305e
+[Info]	2024/03/14 13:43:56 File [80]: /app/config/config.json.................3603f4f1aa193d34931088242baac808
+[Info]	2024/03/14 13:43:56 File [81]: /app/config/crontab.................3875cbadc215ed31953a884fa9415ba7
+[Info]	2024/03/14 13:43:56 File [82]: /app/config/mg.json.................064733105c5954c99cdd0c3c2cfb65d3
+[Info]	2024/03/14 13:43:56 File [83]: /app/config/mp1803.key.................fd4db1c798dd9e3bcb632700f668e01c
+[Info]	2024/03/14 13:43:56 File [84]: /app/config/mqtt.json.................39555e2aa126107c679dbd73427c11ed
+[Info]	2024/03/14 13:43:56 File [85]: /app/font/SourceHanSans-Medium.ttc.................b5ea375303731899a1f10a348595d79b
+[Info]	2024/03/14 13:43:56 File [86]: /app/info.json.................5efe7b1926139e2b49c7b82d4a676209
+[Info]	2024/03/14 13:43:56 File [87]: /app/os/etc/group.................cfe282670cea1372286b8adbdc433b5f
+[Info]	2024/03/14 13:43:56 File [88]: /app/os/etc/mp.sh.................76fada00a71aac7912b5579998b72ff9
+[Info]	2024/03/14 13:43:56 File [89]: /app/os/etc/passwd.................7c8dc4b7a7b747bb6c8322f1da1a2cd3
+[Info]	2024/03/14 13:43:56 File [90]: /app/os/etc/profile.................e1a9b5b423bd849aef05d4bf7cebce31
+[Info]	2024/03/14 13:43:56 File [91]: /app/os/etc/shadow.................becf99c8b6ba6490ee41b419cfabbd27
+[Info]	2024/03/14 13:43:56 File [92]: /app/os/etc/sysctl.................fd35b9699f6aa96a1bcc8262c97fc85e
+[Info]	2024/03/14 13:43:56 File [93]: /app/shell/change_user.sh.................22a25bf516e727954e52fa578aa3a399
+[Info]	2024/03/14 13:43:56 File [94]: /app/shell/checkEmmc.sh.................1540a6007fd5a84abeb73f8d30ee2553
+[Info]	2024/03/14 13:43:56 File [95]: /app/shell/checkPillar.sh.................5f92a2337ddfd5f9937a9729ed96c2b5
+[Info]	2024/03/14 13:43:56 File [96]: /app/shell/gps.sh.................47c83642897e1313f9882bab2b319da3
+[Info]	2024/03/14 13:43:56 File [97]: /app/shell/installCron.sh.................026efae5b3d5793730f02f22b1e05caa
+[Info]	2024/03/14 13:43:56 File [98]: /app/shell/mpapp.................c32ada452ace84253af31948ba948bde
+[Info]	2024/03/14 13:43:56 File [99]: /app/shell/playaudio.sh.................4301e4b518af2c4d74a0a2a18323abf6
+[Info]	2024/03/14 13:43:56 File [100]: /app/shell/rc.sh.................ea10925a504f6007e61fe733472a7bb2
+[Info]	2024/03/14 13:43:56 File [101]: /app/shell/restartAPN.sh.................835a573691108f860994da5ea2ab88a9
+[Info]	2024/03/14 13:43:56 File [102]: /app/shell/restore.sh.................0807e5250061396ac6a3abcd291a8729
+[Info]	2024/03/14 13:43:56 File [103]: /app/shell/softReboot.sh.................0e8d295e6027db0b94cbd818ce254218
+[Info]	2024/03/14 13:43:56 File [104]: /app/shell/stop.sh.................62c3b17958f5902e4ebcc0427c65351e
+[Info]	2024/03/14 13:43:56 File [105]: /app/tools/checkUpTool.................9661b6083bab4575abd3aa6b7307f182
+[Info]	2024/03/14 13:43:56 File [106]: /app/tools/checkUpToolConfig.json.................23874a3247cf9d46a7265bc4e90e8b09
+[Info]	2024/03/14 13:43:56 File [107]: /app/tools/gps.................7b9d3ca0f89ecbd694d57f659b95f2aa
+[Info]	2024/03/14 13:43:56 File [108]: /app/tools/gpsConfig.json.................23874a3247cf9d46a7265bc4e90e8b09
+[Info]	2024/03/14 13:43:56 File [109]: /app/tools/updateCanTool.................0d9f2fd6b91ffb38bd9f8a0d8f98a604
+[Info]	2024/03/14 13:43:56 File [110]: /app/tools/updateCanToolConfig.json.................5365a68bbb26287fb2ccb682469c66cc
+[Info]	2024/03/14 13:43:56 File [111]: /app/upgrade/bin/upgrade.................67988f1cecb19e362da027f8f5d1e97c
+[Info]	2024/03/14 13:43:56 File [112]: /app/upgrade/config/upgrade.json.................4203b35a5996cee35d3df103ce621d86
+[Info]	2024/03/14 13:43:56 File [113]: /app/upgrade/shell/after_upgrade.sh.................b8aec02246e3cda700dcebdac674ef14
+[Info]	2024/03/14 13:43:56 File [114]: /app/upgrade/shell/before_upgrade.sh.................1fd4cecd8a5d494c799665154315583f
+[Info]	2024/03/14 13:43:56 File [115]: /firmware/ble/hash_MP2204_BLE_v1_0_r1.bin.................68a85ab47b60fbf71178dc6b0237649b
+[Info]	2024/03/14 13:43:56 File [116]: /firmware/info.json.................dc59958733ff951a45b7daf155ba89b5
+[Info]	2024/03/14 13:43:56 File [117]: /firmware/lockbox/hash_MP-1712_YB_v1_0_b64.bin.................d7613306237c85ded2e2ba06902c656b
+[Info]	2024/03/14 13:43:56 File [118]: /firmware/motorapp/BA_APP_020.hex.................7bc0a950f08ae0b1080c2094fa06a369
+[Info]	2024/03/14 13:43:56 File [119]: /firmware/motoriap/BA_IAP_004.txt.................576b6d4208677b58bb9f2001d72241ba
+[Info]	2024/03/14 13:43:56 File [120]: /firmware/mp1803/MA1803R_Can_Pluspay_v1_1_r2.bin.................07a8916d633e745df1f3a4b8bfd6196d
+[Info]	2024/03/14 13:43:56 File [121]: /firmware/mpapp/MP2008_TH01_CAN_APP_R01_00_01.bin.................45b5c73c0e4dfc9ffe3c7503ff1ecfce
+[Info]	2024/03/14 13:43:56 File [122]: /firmware/mpiap/MP2008_TH01_CAN_IAP_B01_00_03.bin.................ddb42bf3a6058b95f4a8013a649a940f
+[Info]	2024/03/14 13:43:56 File [123]: /firmware/reader/Hash-MP-1512_YB_v1_0_r6.bin.................f62bdc8be3c49952303cade0dab145e6
+[Info]	2024/03/14 13:43:56 檢查更新數量: 123
+[Info]	2024/03/14 13:43:56 
+[Info]	2024/03/14 13:43:56 [Step 4] 比對本地檔案簽章與伺服器端檔案簽章
+[Info]	2024/03/14 13:43:57 不需更新數量: 123
+[Info]	2024/03/14 13:43:57 需要更新數量: 0
+[Info]	2024/03/14 13:43:57 
+[Info]	2024/03/14 13:43:57 [Step 5] 下載需要更新的檔案
+[Info]	2024/03/14 13:43:57 ==================================================
+[Info]	2024/03/14 13:43:57 下載完成數量: 0
+[Info]	2024/03/14 13:43:57 
+[Info]	2024/03/14 13:43:57 [Step 6] 移動下載完成的檔案至 appDir, 並設定檔案權限為755
+[Info]	2024/03/14 13:43:57 ==================================================
+[Info]	2024/03/14 13:43:57 移動完成數量: 0
+[Info]	2024/03/14 13:43:57 
+[Info]	2024/03/14 13:43:57 [Step 7] 移動完成後刪除暫存區與備份區
+[Info]	2024/03/14 13:43:58 刪除暫存區 /home/pascal/projects/new/upgrade-client/upgrade/tmp
+[Info]	2024/03/14 13:43:58 
+[Info]	2024/03/14 13:43:58 [Step 9] 執行更新後腳本
+[Info]	2024/03/14 13:43:58 執行 /home/pascal/projects/new/upgrade-client/upgrade/shell/after_upgrade.sh
+[Info]	2024/03/14 13:43:58 
