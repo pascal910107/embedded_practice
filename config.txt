@@ -1,0 +1,11 @@
+{
+    "CanLogSizek": 10000,
+    "Console": "ON",
+    "ETicketEnable": 0,
+    "LockMode": "MP1712",
+    "LogSizek": 10000,
+    "Rs232BLE": "/dev/ttyHSL1",
+    "Rs232Reader": "/dev/ttyHS0",
+    "factoryPasswd": "89798198",
+    "sid": "0211e144d9650b3a24b933e11f8cdec384f8d806"
+}"sid":"0211e144d9650b3a24b933e11f8cdec384f8d806"

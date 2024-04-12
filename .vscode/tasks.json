@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ 建置使用中檔案",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-I/home/linuxbrew/.linuxbrew/Cellar/nlohmann-json/3.11.3/include",
+                "-std=c++11",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-lssl",
+                "-lcrypto",
+                "-lcurl",
+                "-pthread"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "偵錯工具產生的工作。"
+        }
+    ],
+    "version": "2.0.0"
+}

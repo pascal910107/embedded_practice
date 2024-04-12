@@ -1,0 +1,8 @@
+[Error]	2024/02/29 15:46:48 This is an error message.
+[Info]	2024/02/29 15:48:40 ***************************************************
+[Info]	2024/02/29 15:48:40 [初始化] Initial start
+[Info]	2024/02/29 15:48:40 ***************************************************
+[Info]	2024/02/29 15:48:40 This is an info message.
+[Debug]	2024/02/29 15:48:40 This is a debug message.
+[Warning]	2024/02/29 15:48:40 This is a warning message.
+[Error]	2024/02/29 15:48:40 This is an error message.
